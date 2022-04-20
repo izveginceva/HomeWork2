@@ -164,13 +164,13 @@ Console.WriteLine();
 Console.WriteLine("Lūdzu, ievadi trijstūra pirmās malas garumu ");
 
 //// 2. sagaidīt pirmā skaitļa ievadi
-double twelfthNumber = int.Parse(Console.ReadLine());
+double twelfthNumber = double.Parse(Console.ReadLine());
 
 //// 3. pajautāt otro skaitli
 Console.WriteLine("Lūdzu, ievadi trijstūra otrās malas garumu ");
 
 //// 4. sagaidīt otrā skaitļa ievadi
-double thirteenthNumber = int.Parse(Console.ReadLine());
+double thirteenthNumber = double.Parse(Console.ReadLine());
 
 //// 5. aprēķināt  taisnleņķa vienādsānu trijstūra laukumu 
 double Area = twelfthNumber * thirteenthNumber / 2;
